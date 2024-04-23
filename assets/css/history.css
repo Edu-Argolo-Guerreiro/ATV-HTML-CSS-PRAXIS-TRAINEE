@@ -1,0 +1,49 @@
+.history{
+    align-items: center;
+    text-align: center;
+}
+
+.tittle-history{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.content-block-history {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.land-block, .fight-block, .tecelas-block{
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
+    background-color: var(--block-history);
+    border: 1px solid var(--all-color);
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.622);
+    margin: 0rem 2rem;
+}
+
+.land-block h2, .fight-block h2, .tecelas-block h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.land-block p, .fight-block p, .tecelas-block p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 5rem;
+}
+
+.land-block-img, .fight-block-img, .tecelas-block-img {
+    width:45%;
+}
+
+.green-path-block-img{
+    margin-top: 2rem;
+}

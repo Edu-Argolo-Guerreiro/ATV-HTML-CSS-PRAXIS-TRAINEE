@@ -1,0 +1,99 @@
+.main-content{
+    align-items: center;
+    text-align: center;
+}
+
+
+.main-container{
+    height: 100vh;
+    background-image: url(../img/banner-silk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40rem;
+}
+
+.container-caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16rem;
+}
+
+.container-tittle h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: 0.3rem solid var(--all-color);
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.silksong-logo {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-silk {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 15rem;
+}
+
+.container-silk img {
+    width: 55%;
+}
+
+.container-hornet {
+    width: 60%;
+    height: 60vh;
+}
+
+.container-hornet img {
+    width: 100%;
+    border-radius: 2.5rem;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.container-apps{
+    align-items: center;
+    text-align: center;
+    margin-top: 60rem;
+    min-height: 60vh;
+}
+
+.main-h1{
+    margin-top:20rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.img-disponivel{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.img-apps{
+    width: 18%;
+    padding: 5rem;
+    margin: 1rem 1.5rem;
+}
+
+.img-apps:hover{
+    border: 1px solid var(--all-color);
+    border-radius: 20%;
+    padding: 3rem;
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+}
+
+

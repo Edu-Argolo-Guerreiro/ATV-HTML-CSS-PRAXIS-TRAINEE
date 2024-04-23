@@ -1,0 +1,35 @@
+footer{
+    position: relative;
+    min-height: 40vh;
+}
+.grid-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 3rem var(--gap);
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: var(--gap);
+    margin-left: 10rem;
+}
+
+.copyright {
+    margin-left: 11rem;
+    margin-bottom: 2rem;
+}
+
+.footer-img {
+    position:absolute;
+    right: 0rem;
+    bottom: 2rem;
+    width: 20%;
+}
+
+.grid-team h2, .grid-contato h2, .grid-endereço h2, .grid-social h2{
+   font-size: 2rem;
+}
+
+.grid-team p, .grid-contato p, .grid-endereço p, .grid-social p{
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}

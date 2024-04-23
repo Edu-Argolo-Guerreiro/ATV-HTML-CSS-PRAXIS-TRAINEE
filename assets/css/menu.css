@@ -1,0 +1,34 @@
+.nav-container{
+    background-color: var(--menu-navbar);
+}
+
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid var(--all-color);
+    margin-bottom: 0.1rem;
+}
+
+.caixa{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0 30rem;
+}
+
+a{
+    font-size: 1.8rem;
+    display: block;
+    font-weight: bold;
+    padding: 0.5rem 2rem
+}
+
+#team_cherry{
+    border: 0.2rem solid var(--all-color);
+    border-radius: 80rem;
+}
+
+#team_cherry:hover{
+    transition: ease-in-out 200ms;
+    background-color: var(--all-color);
+    color: var(--menu-navbar);
+}
