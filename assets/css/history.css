@@ -21,12 +21,12 @@
     text-align: center;
     align-items: center;
     padding: 2rem;
-    width: 50%;
+    width: 45%;
     background-color: var(--block-history);
     border: 1px solid var(--all-color);
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.622);
-    margin: 0rem 2rem;
+    margin: 0rem 5rem;
 }
 
 .land-block h2, .fight-block h2, .tecelas-block h2 {
@@ -42,6 +42,7 @@
 
 .land-block-img, .fight-block-img, .tecelas-block-img {
     width:45%;
+    margin: 0rem 2rem;
 }
 
 .green-path-block-img{
